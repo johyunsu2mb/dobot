@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/PKG-INFO
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/dependency_links.txt
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/entry_points.txt
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/requires.txt
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/top_level.txt
+../../build/dobot_ros2_client/dobot_ros2_client.egg-info/zip-safe
+config/dobot_params.yaml
+dobot_ros2_client/__init__.py
+dobot_ros2_client/dobot_client_node.py
+launch/dobot_client.launch.py
+launch/dobot_client_named.launch.py
+launch/dobot_client_slow.launch.py
+resource/dobot_ros2_client

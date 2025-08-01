@@ -1,0 +1,4 @@
+[console_scripts]
+dobot_client = dobot_robot_manager.client_node:main
+dobot_server = dobot_robot_manager.server_node:main
+dobot_tcp_server = dobot_robot_manager.tcp_server:main

@@ -1,0 +1,19 @@
+# ROS2 노드 파라미터 설정
+dobot_client:
+  ros__parameters:
+    # HTTP API 서버 설정
+    server_url: "http://localhost:8080"
+    
+    # TCP 서버 설정
+    tcp_server_host: "127.0.0.1"
+    tcp_server_port: 9988
+    client_name: "ROS2_Client"
+    
+    # 업데이트 주기 (Hz) - 낮출수록 요청 빈도 감소
+    update_rate: 1.0  # 1초에 1번 (기존: 10Hz)
+    
+    # HTTP 요청 타임아웃
+    timeout: 5.0
+    
+    # 로깅 레벨
+    log_level: "info"  # debug, info, warn, error
