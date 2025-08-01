@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dobot-ros2-client
+Version: 1.0.0
+Summary: ROS2 client for Dobot control system
+Maintainer: Your Name
+Maintainer-email: your.email@example.com
+License: MIT

@@ -1,0 +1,74 @@
+dobot_ros2_client:
+  ros__parameters:
+    # 로봇 식별
+    robot_id: ""               # 런타임에 설정 또는 파라미터로 제공
+    
+    # 서버 연결 설정
+    server_host: "127.0.1.1"
+    server_port: 9988
+    
+    # 통신 모드 설정
+    communication_mode: "hybrid"  # tcp_only, ros2_only, hybrid
+    enable_tcp: true
+    enable_ros2: true
+    
+    # 상태 보고 설정
+    heartbeat_interval: 10.0   # 10초마다 상태 전송
+    position_update_interval: 5.0  # 5초마다 위치 업데이트
+    
+    # 연결 관리 설정
+    reconnect_interval: 5.0    # 5초마다 재연결 시도
+    max_reconnect_attempts: 5
+    connection_timeout: 10.0   # 연결 타임아웃
+    
+    # Dobot 하드웨어 설정
+    dobot_port: "/dev/ttyUSB0" # Linux
+    # dobot_port: "COM3"       # Windows
+    dobot_baudrate: 115200
+    enable_simulation: false   # true면 시뮬레이션 모드
+    
+    # 작업 실행 설정
+    task_timeout: 120.0        # 2분
+    movement_speed: 50.0       # 이동 속도 (%)
+    gripper_force: 50.0        # 그리퍼 힘 (%)
+    safety_height: 50.0        # 안전 높이 (mm)
+    
+    # 위치 설정
+    home_position:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      r: 0.0
+    
+    # 가구별 픽업 위치
+    furniture_positions:
+      chair:
+        x: 200.0
+        y: 100.0
+        z: -50.0
+        r: 0.0
+      sofa:
+        x: 250.0
+        y: 0.0
+        z: -30.0
+        r: 0.0
+      desk:
+        x: 300.0
+        y: -100.0
+        z: -40.0
+        r: 0.0
+      bed:
+        x: 350.0
+        y: 50.0
+        z: -20.0
+        r: 0.0
+    
+    # YOLO 설정
+    yolo_model: "yolov8n.pt"   # 모델 파일
+    yolo_confidence: 0.5       # 신뢰도 임계값
+    yolo_device: "cpu"         # cpu 또는 cuda
+    
+    # 로그 설정
+    log_level: "INFO"
+    enable_task_history: true
+    max_history_size: 100

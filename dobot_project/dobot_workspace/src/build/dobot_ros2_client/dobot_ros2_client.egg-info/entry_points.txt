@@ -1,0 +1,2 @@
+[console_scripts]
+dobot_client_node = dobot_ros2_client.dobot_client_node:main
