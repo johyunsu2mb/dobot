@@ -1,0 +1,18 @@
+# Flask 웹 프레임워크
+flask==2.3.3
+flask_core
+requests==2.31.0
+
+# 설정 및 로깅
+pyyaml==6.0.1
+coloredlogs==15.0.1
+python-dotenv==1.0.0
+
+# GUI (Tkinter는 Python 기본 포함)
+# tkinter는 별도 설치 불필요
+
+# 개발 및 테스트 도구
+pytest==7.4.2
+pytest-mock==3.11.1
+black==23.7.0
+flake8==6.0.0
