@@ -1,0 +1,36 @@
+running develop
+Removing /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot-ros2-client.egg-link (link to .)
+running egg_info
+writing ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/requires.txt
+writing top-level names to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/top_level.txt
+reading manifest file '../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib/dobot_ros2_client
+copying dobot_ros2_client/__init__.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib/dobot_ros2_client
+copying dobot_ros2_client/dobot_client_node.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib/dobot_ros2_client
+running install
+running install_lib
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client
+copying /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib/dobot_ros2_client/__init__.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client
+copying /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build/lib/dobot_ros2_client/dobot_client_node.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client
+byte-compiling /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client/dobot_client_node.py to dobot_client_node.cpython-312.pyc
+running install_data
+copying resource/dobot_ros2_client -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/ament_index/resource_index/packages
+copying package.xml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client
+copying launch/dobot_client.launch.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/launch
+copying launch/dobot_client_slow.launch.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/launch
+copying config/dobot_params.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/config
+running install_egg_info
+Copying ../../build/dobot_ros2_client/dobot_ros2_client.egg-info to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client-0.0.1-py3.12.egg-info
+running install_scripts
+Installing dobot_client_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+Installing dobot_test_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+writing list of installed files to '/home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/install.log'

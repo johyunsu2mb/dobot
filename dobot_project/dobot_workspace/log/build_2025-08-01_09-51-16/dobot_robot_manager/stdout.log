@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/dobot_robot_manager/dobot_robot_manager.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_robot_manager/dobot_robot_manager.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_robot_manager/dobot_robot_manager.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_robot_manager/dobot_robot_manager.egg-info/requires.txt
+writing top-level names to ../../build/dobot_robot_manager/dobot_robot_manager.egg-info/top_level.txt
+reading manifest file '../../build/dobot_robot_manager/dobot_robot_manager.egg-info/SOURCES.txt'
+writing manifest file '../../build/dobot_robot_manager/dobot_robot_manager.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/client_only.launch.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/launch
+copying config/robot_config.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/development.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/production.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/server_config.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/topics_config.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/launch_config.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+copying config/system_config.yaml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/config
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/share/dobot_robot_manager/scripts
+running install_egg_info
+removing '/home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/lib/python3.12/site-packages/dobot_robot_manager-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dobot_robot_manager/dobot_robot_manager.egg-info to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/lib/python3.12/site-packages/dobot_robot_manager-1.0.0-py3.12.egg-info
+running install_scripts
+Installing dobot_client script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/lib/dobot_robot_manager
+Installing dobot_server script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/lib/dobot_robot_manager
+Installing dobot_tcp_server script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_robot_manager/lib/dobot_robot_manager
+writing list of installed files to '/home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_robot_manager/install.log'

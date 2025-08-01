@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating dobot_ros2_client.egg-info
+writing dobot_ros2_client.egg-info/PKG-INFO
+writing dependency_links to dobot_ros2_client.egg-info/dependency_links.txt
+writing entry points to dobot_ros2_client.egg-info/entry_points.txt
+writing requirements to dobot_ros2_client.egg-info/requires.txt
+writing top-level names to dobot_ros2_client.egg-info/top_level.txt
+writing manifest file 'dobot_ros2_client.egg-info/SOURCES.txt'
+reading manifest file 'dobot_ros2_client.egg-info/SOURCES.txt'
+writing manifest file 'dobot_ros2_client.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot-ros2-client.egg-link (link to .)
+Installing dobot_client_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+Installing dobot_test_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+
+Installed /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client
+running symlink_data
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/ament_index
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/ament_index/resource_index
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/ament_index/resource_index/packages
+symbolically linking /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/resource/dobot_ros2_client -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/ament_index/resource_index/packages
+symbolically linking /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/package.xml -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/launch
+symbolically linking /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/launch/dobot_client.launch.py -> /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/launch
+creating /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/share/dobot_ros2_client/config

@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/dobot_ros2_client/dobot_ros2_client.egg-info
+writing ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/dependency_links.txt
+writing entry points to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/entry_points.txt
+writing requirements to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/requires.txt
+writing top-level names to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/top_level.txt
+writing manifest file '../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt'
+error: package directory 'dobot_ros2_client' does not exist

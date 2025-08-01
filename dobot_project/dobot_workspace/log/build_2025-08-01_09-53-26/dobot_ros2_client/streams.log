@@ -1,0 +1,22 @@
+[1.524s] Invoking command in '/home/kiro06/Documents/dobot_project/dobot_workspace/src/dobot_ros2_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_ros2_client build --build-base /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build install --record /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/install.log --single-version-externally-managed install_data
+[1.923s] running egg_info
+[1.954s] writing ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/PKG-INFO
+[1.954s] writing dependency_links to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/dependency_links.txt
+[1.954s] writing entry points to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/entry_points.txt
+[1.954s] writing requirements to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/requires.txt
+[1.955s] writing top-level names to ../../build/dobot_ros2_client/dobot_ros2_client.egg-info/top_level.txt
+[2.017s] reading manifest file '../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt'
+[2.018s] writing manifest file '../../build/dobot_ros2_client/dobot_ros2_client.egg-info/SOURCES.txt'
+[2.019s] running build
+[2.019s] running build_py
+[2.019s] running install
+[2.027s] running install_lib
+[2.066s] running install_data
+[2.066s] running install_egg_info
+[2.105s] removing '/home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client-0.0.1-py3.12.egg-info' (and everything under it)
+[2.105s] Copying ../../build/dobot_ros2_client/dobot_ros2_client.egg-info to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages/dobot_ros2_client-0.0.1-py3.12.egg-info
+[2.106s] running install_scripts
+[2.304s] Installing dobot_client_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+[2.304s] Installing dobot_test_node script to /home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/dobot_ros2_client
+[2.304s] writing list of installed files to '/home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/install.log'
+[2.348s] Invoked command in '/home/kiro06/Documents/dobot_project/dobot_workspace/src/dobot_ros2_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kiro06/Documents/dobot_project/dobot_workspace/install/dobot_ros2_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dobot_ros2_client build --build-base /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/build install --record /home/kiro06/Documents/dobot_project/dobot_workspace/build/dobot_ros2_client/install.log --single-version-externally-managed install_data
