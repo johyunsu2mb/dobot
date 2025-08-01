@@ -1,0 +1,47 @@
+topics_config:
+  # 시스템 레벨 토픽들
+  system_topics:
+    robot_status: "/robot_status"
+    robot_result: "/robot_result"
+    robot_command: "/robot_command"
+    task_request: "/task_request"
+    task_status: "/task_status"
+    system_status: "/system_status"
+    emergency_stop: "/emergency_stop"
+  
+  # 개별 로봇 토픽 패턴
+  robot_topic_patterns:
+    status: "/robot_{robot_id}/status"
+    result: "/robot_{robot_id}/result"
+    command: "/robot_{robot_id}/command"
+    position: "/robot_{robot_id}/position"
+    joint_states: "/robot_{robot_id}/joint_states"
+    gripper_state: "/robot_{robot_id}/gripper_state"
+    camera_feed: "/robot_{robot_id}/camera/image_raw"
+    detected_objects: "/robot_{robot_id}/detected_objects"
+  
+  # QoS 프로파일
+  qos_profiles:
+    system_status:
+      reliability: "reliable"
+      durability: "volatile"
+      history: "keep_last"
+      depth: 1
+    
+    robot_commands:
+      reliability: "reliable"
+      durability: "volatile"
+      history: "keep_last"
+      depth: 10
+    
+    sensor_data:
+      reliability: "best_effort"
+      durability: "volatile"
+      history: "keep_last"
+      depth: 5
+    
+    emergency:
+      reliability: "reliable"
+      durability: "transient_local"
+      history: "keep_all"
+      depth: 1

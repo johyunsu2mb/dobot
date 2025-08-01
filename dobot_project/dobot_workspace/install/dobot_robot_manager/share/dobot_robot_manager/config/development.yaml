@@ -1,0 +1,30 @@
+development:
+  ros__parameters:
+    # 디버그 모드
+    debug_mode: true
+    verbose_logging: true
+    log_level: "DEBUG"
+    
+    # 시뮬레이션 설정
+    enable_simulation: true
+    simulation_speed: 1.0      # 실시간 배속
+    fake_hardware: true
+    
+    # 개발용 단축 설정
+    quick_startup: true
+    skip_hardware_check: true
+    disable_safety_checks: false  # 안전을 위해 false 유지
+    
+    # 테스트 로봇들
+    test_robots:
+      - "test_01"
+      - "test_02"
+      - "sim_alpha"
+    
+    # 개발용 서버 설정
+    server_host: "localhost"
+    allow_external_connections: false
+    
+    # Hot reload 설정
+    enable_hot_reload: true
+    watch_config_changes: true
