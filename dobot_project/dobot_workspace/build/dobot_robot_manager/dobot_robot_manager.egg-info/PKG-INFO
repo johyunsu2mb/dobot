@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: dobot-robot-manager
-Version: 1.0.0
-Summary: Multi-robot management system for Dobot robots with TCP and ROS2 communication
-Maintainer: johyunsu2mb
-Maintainer-email: johyunsu61@gmail.com
-License: MIT
