@@ -1,0 +1,59 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  standard:
+    format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+    datefmt: "%H:%M:%S"
+  detailed:
+    format: "%(asctime)s [%(levelname)s] %(name)s:%(lineno)d: %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+  windows_colored:
+    "()": coloredlogs.ColoredFormatter
+    format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+    datefmt: "%H:%M:%S"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: windows_colored
+    stream: ext://sys.stdout
+    
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: detailed
+    filename: logs/dobot_system.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+    encoding: utf8
+    
+  error_file:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: detailed
+    filename: logs/dobot_errors.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 3
+    encoding: utf8
+
+loggers:
+  dobot_tcp_server:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: false
+    
+  dobot_gui:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+    
+  http_api_server:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+
+root:
+  level: INFO
+  handlers: [console, file, error_file]

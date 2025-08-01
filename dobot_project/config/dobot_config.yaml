@@ -1,0 +1,17 @@
+# Dobot 연결 설정
+dobot:
+  host: "192.168.1.6"  # Dobot IP 주소
+  port: 29999          # Dobot 포트
+  
+# 시뮬레이션 모드 설정
+simulation:
+  enabled: true       # true로 설정하면 시뮬레이션 모드로 실행
+  
+# HTTP API 서버 설정
+http_server:
+  port: 8080          # HTTP API 포트
+  
+# 클라이언트 서버 설정
+client_server:
+  host: "127.0.0.1"
+  port: 9988          # 클라이언트 TCP 포트
